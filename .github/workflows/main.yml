@@ -1,0 +1,13 @@
+name: shell script
+
+on: [push]
+
+jobs:
+  runs-shell-command:
+    runs-on: ubuntu-latest
+    steps:
+      - name: echo a string
+        run: echo "hello Rush"
+      - name: multi line string
+        run: |
+          node -v
