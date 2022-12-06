@@ -3,7 +3,7 @@ name: action workflow
 on: [push]
 
 jobs:
-  runs-github-action
+  runs-github-action:
     runs-on: ubuntu-latest
     steps:
       - name: simple js action
