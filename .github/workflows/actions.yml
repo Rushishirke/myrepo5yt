@@ -10,7 +10,7 @@ jobs:
         id: great
         uses: actions/hello-world-javascript-action@v1
         with: 
-          who-to great:rushi
+          who-to great: rushi
       - name: Log Greeting Time
         run: echo "${{steps.great.output.}}"
     
