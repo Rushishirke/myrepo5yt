@@ -12,5 +12,5 @@ jobs:
         with: 
           who-to great: rushi
       - name: Log Greeting Time
-        run: echo "${{steps.great.output.}}"
+        run: echo "${{steps.great.outputs.time}}"
     
