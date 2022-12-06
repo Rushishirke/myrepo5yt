@@ -11,3 +11,4 @@ jobs:
       - name: multi line string
         run: |
           node -v
+          npn -v
