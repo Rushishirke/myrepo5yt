@@ -1,5 +1,5 @@
 name: container
-on: pus
+on: push
 
 jobs: 
   node-docker:
